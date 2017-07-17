@@ -98,14 +98,16 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background: url("../img/slider-bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: 50%;
   background-attachment: fixed;
   background-position: 10% 0%;
+  margin: auto;
   padding: 50px 0 50px 0;
   position: relative;
 }
 #slider:before {
   content: "";
+  margin: auto;
   position: absolute;
   left: 0;
   top: 0;
