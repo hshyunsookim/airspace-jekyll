@@ -501,12 +501,12 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 24px;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  font-size: 22px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 18px;
+  font-size: 14px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
