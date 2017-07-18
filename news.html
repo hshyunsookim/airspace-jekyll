@@ -19,8 +19,8 @@ permalink: /news/
 </section>
     <!-- Portfolio Start -->
 
-
-{% for news in site.news %}
+aaaa
+{% for news in site.posts %}
 <div class="news-area">
   <a href="{{ news.url | prepend: site.baseurl }}" class="bold">{{ news.title }}</a>
   <p class="news-date">{{ news.date | date_to_long_string }}</p>
