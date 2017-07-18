@@ -18,6 +18,20 @@ permalink: /news/
     </div>
 </section>
     <!-- Portfolio Start -->
+
+
+{% for news in site.news %}
+<div class="news-area">
+  <a href="{{ news.url | prepend: site.baseurl }}" class="bold">{{ news.title }}</a>
+  <p class="news-date">{{ news.date | date_to_long_string }}</p>
+  <p>
+    {{ news.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}
+
+
+
 <section id="portfolio-work">
     <div class="container">
         <div class="row">
