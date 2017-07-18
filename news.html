@@ -19,7 +19,7 @@ permalink: /news/
 </section>
     <!-- Portfolio Start -->
 
-ddd
+eeee
 {% for post in site.posts %}
   {% if post.tags contains 'news' %}
   <div class="post-area">
@@ -51,6 +51,23 @@ ddd
               </div> 
              <div class="portfolio-contant">
                 <ul id="portfolio-contant-active">
+
+
+		{% for post in site.posts %}
+		  {% if post.tags contains 'news' %}
+                    <div class="mix Seminar">
+                       <img src="{{ site.baseurl }}/img/portfolio/work1.jpg" alt="">
+                       <div class="post-area">
+                         <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+                         <p>
+		         {{ post.content | strip_html | truncatewords: 50 }} 
+		         </p>
+                       </div>
+                  </div>
+		  {% endif %}
+		{% endfor %}
+
+
 
                     <li class="mix Seminar">
                       <a href="#">
