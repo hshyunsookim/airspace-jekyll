@@ -2,9 +2,9 @@
 layout: post
 title: "머신러닝 101 세미나"
 tags: [news, seminar]
-image: /img/news/work1.jpg
+image: /img/news/ml101.jpg
 ---
 
-this is seminar news. 
+머신러닝 101 세미나 관련 글.
 
 

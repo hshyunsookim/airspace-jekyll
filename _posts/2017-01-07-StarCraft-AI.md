@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "스타크래프트 AI"
-tags: [news, seminar]
-image: /img/news/work1.jpg
+tags: [news, research]
+image: /img/news/starcraft.jpg
 ---
 
-this is seminar news. 
-
+스타크래프트 AI 관련 프로젝트 설명 굴. 종료 됨.
 

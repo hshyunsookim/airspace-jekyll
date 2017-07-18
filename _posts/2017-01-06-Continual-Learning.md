@@ -1,9 +1,8 @@
 ---
 layout: post
-tags: [news, seminar]
-image: /img/news/work1.jpg
+tags: [news, research]
+image: /img/news/continual_learning.jpg
 ---
 
-this is seminar news. 
-
+T-Brain의 두번째 연구 성과인 Continual Learning 관련 설명 글.
 
