@@ -48,7 +48,8 @@ permalink: /news/
 			        <div>
 			        <h1>{{ post.title }}</h1>
 			        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-			       </div>
+			        <p>{{ post.date | date: "%m/%d/%Y" }}</p>
+				</div>
 		        </a>
                     </li>
 		  {% endif %}

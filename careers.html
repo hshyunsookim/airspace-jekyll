@@ -20,7 +20,7 @@ permalink: /careers/
   {% if post.tags contains 'careers' %}
   <div class="post-area">
     <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-    <p class="post-date">{{ post.date | date_to_long_string }}</p>
+    <p class="post-date">{{ post.date | date: "%m/%d/%Y" }}</p>
     <p>
       {{ post.content | strip_html | truncatewords: 50 }}
     </p>
