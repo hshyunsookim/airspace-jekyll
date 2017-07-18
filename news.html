@@ -44,7 +44,7 @@ permalink: /news/
 		  {% if post.tags contains 'news' %}
 		    <li class="mix Seminar">                       
 			<a href="{{ post.url | prepend: site.baseurl }}"  class="bold">
-				<img src="/img/portfolio/work1.jpg" alt="">
+				<img src="{{ post.image }}" alt="">
 			        <div>
 			        <h1>{{ post.title }}</h1>
 			        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
