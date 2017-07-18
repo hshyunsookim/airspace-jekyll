@@ -495,6 +495,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li div {
   display: inline-block;
+  margin-left: 10px;
+}
+#portfolio-work .block .portfolio-contant ul li div h1 {
+  font-size: 24px;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
   font-size: 22px;
@@ -502,7 +506,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 1px;
 }
 #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 15px;
+  font-size: 18px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
@@ -510,7 +514,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #655E7A;
 }
 #portfolio-work .block .portfolio-contant ul img {
-  width: 256px;
+  width: 150px;
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .overly {
@@ -525,7 +529,7 @@ font header .navbar-default .navbar-nav li a:hover {
   -o-transition: .3s all;
   transition: .3s all;
   text-align: center;
-  width: 256px;
+  width: 150px;
 }
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
