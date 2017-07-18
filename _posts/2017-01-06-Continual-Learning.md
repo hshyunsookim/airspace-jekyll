@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [news, research]
+tags: [news, project]
 image: /img/news/continual_learning.jpg
 ---
 

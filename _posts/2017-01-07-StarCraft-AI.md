@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스타크래프트 AI"
-tags: [news, research]
+tags: [news, project]
 image: /img/news/starcraft.jpg
 ---
 

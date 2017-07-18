@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SK T-Brain 설립"
-tags: [news, news]
+tags: [news, media]
 image: /img/news/foundation.jpg
 ---
 
