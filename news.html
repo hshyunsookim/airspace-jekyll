@@ -19,13 +19,13 @@ permalink: /news/
 </section>
     <!-- Portfolio Start -->
 
-aaaa
-{% for news in site.posts %}
-<div class="news-area">
-  <a href="{{ news.url | prepend: site.baseurl }}" class="bold">{{ news.title }}</a>
-  <p class="news-date">{{ news.date | date_to_long_string }}</p>
+bbbb
+{% for post in site.news %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
   <p>
-    {{ news.content | strip_html | truncatewords: 50 }}
+    {{ post.content | strip_html | truncatewords: 50 }}
   </p>
 </div>
 {% endfor %}
