@@ -491,6 +491,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li a {
   display: inline-block;
+  width: 100%;
 }
 #portfolio-work .block .portfolio-contant ul li div {
   display: inline-block;
