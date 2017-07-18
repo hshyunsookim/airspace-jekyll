@@ -42,7 +42,7 @@ permalink: /news/
 
 		{% for post in site.posts %}
 		  {% if post.tags contains 'news' %}
-		    <li class="mix {{ post.tags }}">                       
+		    <li class="mix {{ post.tags | join: " " }}">                       
 			<a href="{{ post.url | prepend: site.baseurl }}"  class="bold">
 				<img src="{{ post.image }}" alt="">
 			        <div>
