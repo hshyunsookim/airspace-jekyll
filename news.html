@@ -29,11 +29,11 @@ permalink: /news/
               <div class="portfolio-menu">
                 <ul>
                     <li class="filter" data-filter="all">All</li>
-                    <li class="filter" data-filter=".News">News</li>
-                    <li class="filter" data-filter=".Seminar">Seminar</li>
-                    <li class="filter" data-filter=".Research">Research</li>
-                    <li class="filter" data-filter=".Event">Event</li>
-                    <li class="filter" data-filter=".Visitor">Visitor</li>
+                    <li class="filter" data-filter=".news">News</li>
+                    <li class="filter" data-filter=".seminar">Seminar</li>
+                    <li class="filter" data-filter=".research">Research</li>
+                    <li class="filter" data-filter=".event">Event</li>
+                    <li class="filter" data-filter=".visitor">Visitor</li>
                 </ul>
               </div> 
              <div class="portfolio-contant">
@@ -42,7 +42,7 @@ permalink: /news/
 
 		{% for post in site.posts %}
 		  {% if post.tags contains 'news' %}
-		    <li class="mix Seminar">                       
+		    <li class="mix {{ post.tags }}">                       
 			<a href="{{ post.url | prepend: site.baseurl }}"  class="bold">
 				<img src="{{ post.image }}" alt="">
 			        <div>
