@@ -1,6 +1,6 @@
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-.DS_Store
-.md~
+*.bundle
+*.sass-cache
+*_site
+*Gemfile.lock
+*.DS_Store
+*.md~
