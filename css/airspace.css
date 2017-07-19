@@ -409,6 +409,9 @@ font header .navbar-default .navbar-nav li a:hover {
   overflow: hidden;
   padding: 80px 0;
 }
+#portfolio-work .container {
+  width: 1000px;
+}
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
   text-align: center;
@@ -502,7 +505,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li div {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 #portfolio-work .block .portfolio-contant ul li div h1 {
   font-size: 20px;
