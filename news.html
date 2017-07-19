@@ -44,10 +44,10 @@ permalink: /news/
 		  {% if post.tags contains 'news' %}
 		    <li class="mix {{ post.tags | join: " " }}">                       
 			<a href="{{ post.url | prepend: site.baseurl }}"  class="bold">
-				<div class=crop>
+				<div class="crop">
 				<img src="{{ post.image }}" alt="">
 				</div>
-			        <div>
+			        <div class="preview">
 			        <h1>{{ post.title }}</h1>
 			        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 			        <p>{{ post.date | date: "%m/%d/%Y" }}</p>
