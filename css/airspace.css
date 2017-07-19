@@ -521,11 +521,25 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+@media (min-width: 1200px) #portfolio-work .block .portfolio-contant ul li a p {
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 75ch;
+  white-space: nowrap;
+}
+@media (min-width: 992px) #portfolio-work .block .portfolio-contant ul li a p {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 75ch;
+  white-space: nowrap;
+}
+#portfolio-work .block .portfolio-contant ul li a p {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 50ch;
   white-space: nowrap;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
