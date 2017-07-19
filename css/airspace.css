@@ -553,6 +553,7 @@ font header .navbar-default .navbar-nav li a:hover {
   overflow: hidden;
   max-width: 40ch;
   white-space: nowrap;
+  margin-bottom: 0px;
 }
 @media (min-width: 992px) {
    #portfolio-work .block .portfolio-contant ul li a p {
@@ -561,6 +562,7 @@ font header .navbar-default .navbar-nav li a:hover {
     overflow: hidden;
     max-width: 75ch;
     white-space: nowrap;
+    margin-bottom: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -570,6 +572,7 @@ font header .navbar-default .navbar-nav li a:hover {
     overflow: hidden;
     max-width: 75ch;
     white-space: nowrap;
+    margin-bottom: 0px;
   }
 }
 #portfolio-work .block .portfolio-contant ul li a span {
