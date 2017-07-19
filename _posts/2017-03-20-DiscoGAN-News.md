@@ -2,7 +2,7 @@
 layout: post
 title: "내 가방에 어울리는 신발, 인공지능(AI)이 골라 준다"
 tags: [news, media]
-image: /img/news/investment.jpg
+image: /img/news/discogan_6.jpg
 ---
 
 SK T-Brain, 첫 연구성과인 "DiscoGAN" (Discover와 GAN의 합성어) 논문 ArXiv에 공개. 기존의 AI 지도학습은 입력 대상과 (input) 출력 대상의 (output) 정답을 알고리즘에 학습시키는 방식이었지만, DiscoGAN의 알고리즘은 입력 대상과 출력 대상 간 공통 특성을 스스로 분석. 
