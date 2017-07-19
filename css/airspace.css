@@ -409,14 +409,20 @@ font header .navbar-default .navbar-nav li a:hover {
   overflow: hidden;
   padding: 80px 0;
 }
-@media (min-width: 1200px) #portfolio-work .container {
-  width: 1000px;
+@media (min-width: 768px) {
+  #portfolio-work .container {
+    width: 750px;
+  }
 }
-@media (min-width: 992px) #portfolio-work .container {
-  width: 970px;
+@media (min-width: 992px) {
+  #portfolio-work .container {
+    width: 970px;
+  }
 }
-@media (min-width: 768px) #portfolio-work .container {
-  width: 750px;
+@media (min-width: 1200px) {
+  #portfolio-work .container {
+    width: 1000px;
+  }
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -521,26 +527,31 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-@media (min-width: 1200px) #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 14px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width: 75ch;
-  white-space: nowrap;
-}
-@media (min-width: 992px) #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 14px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width: 75ch;
-  white-space: nowrap;
-}
-@media (min-width: 0px) #portfolio-work .block .portfolio-contant ul li a p {
+
+#portfolio-work .block .portfolio-contant ul li a p {
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 40ch;
   white-space: nowrap;
+}
+@media (min-width: 992px) {
+   #portfolio-work .block .portfolio-contant ul li a p {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 75ch;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 1200px) {
+  #portfolio-work .block .portfolio-contant ul li a p {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 75ch;
+    white-space: nowrap;
+  }
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
