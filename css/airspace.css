@@ -512,7 +512,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-left: 0px;
   vertical-align: middle;
   width: 150px;
-  height: 112.5px;
+  height: auto;
   overflow: hidden;
 }
 @media (max-width: 768px) {
