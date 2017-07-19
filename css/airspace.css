@@ -518,9 +518,9 @@ font header .navbar-default .navbar-nav li a:hover {
 @media (max-width: 768px) {
   #portfolio-work .block .portfolio-contant ul li a .crop {
     margin-left: 0px;
-    vertical-align: bottom;
+    vertical-align: middle;
     width: 25%;
-    height: 112.5px;
+    height: auto;
     overflow: hidden;
   }
   #portfolio-work .block .portfolio-contant ul li a .preview {
