@@ -510,7 +510,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li a .crop {
   margin-left: 0px;
-  vertical-align: bottom;
+  vertical-align: middle;
   width: 150px;
   height: 112.5px;
   overflow: hidden;
@@ -534,7 +534,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   margin-left: 10px;
   vertical-align: middle;
-  height: 112.5px
+  height: auto;
 }
 #portfolio-work .block .portfolio-contant ul li div h1 {
   font-size: 20px;
