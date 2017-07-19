@@ -7,7 +7,7 @@ image: /img/news/discogan_6.jpg
 
 SK T-Brain, 첫 연구성과인 "DiscoGAN" (Discover와 GAN의 합성어) 논문 ArXiv에 공개. 기존의 AI 지도학습은 입력 대상과 (input) 출력 대상의 (output) 정답을 알고리즘에 학습시키는 방식이었지만, DiscoGAN의 알고리즘은 입력 대상과 출력 대상 간 공통 특성을 스스로 분석. 
 
-[[동아사이언 기사 원문]](http://dongascience.donga.com/news/view/17161): 
+[[동아사이언 기사 원문]](http://dongascience.donga.com/news/view/17161)
 
 중요한 자리를 앞둔 직장인 A 씨는 신발장 앞에서 어떤 신발을 신을지 한참을 고민했다. 동생에게 어떤 신발이 더 잘 어울리느냐고 물었지만 동생은 "무슨 차이인지 모르겠다"며 고개를 갸우뚱했다.
  
