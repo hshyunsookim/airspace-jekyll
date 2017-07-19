@@ -4,8 +4,6 @@ tags: [news, project]
 image: /img/news/continual_learning.png
 ---
 
-T-Brain의 두번째 연구 성과인 Continual Learning 관련 설명 글.
-
 T-Brain의 새로운 연구 성과를 알려드립니다. 오늘 arXiv에 공개된 저희 논문의 제목은 “Continual Learning with Deep Generative Replay”로, 그동안 난제였던 continual learning에서의 망각 현상을 GAN을 이용하여 해결할 수 있는 가능성을 보였습니다.
 
 Continual learning은 여러 task를 하나의 모델에 순차적으로 학습시켜, 최종적으로 모든 task의 수행이 가능한 모델을 학습시키는 것을 목표로 합니다. 하지만 새로운 task를 학습시킬 때, 모델이 새 task를 풀도록 완전히 바뀌어 이전 task를 모두 잊어버리는 “catastrophic forgetting” 현상이 발생합니다. 이를 해결하기 위해 최근 구글의 DeepMind에서도 Elastic Weight Consolidation(EWC)라는 신경망의 weight을 예전 task에 대한 중요도에 따라 유지시키는 기술을 제안하였습니다.
