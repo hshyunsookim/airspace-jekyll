@@ -778,6 +778,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .social-icons {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 .social-icons li {
   display: inline-block;
