@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SK텔레콤 '한국판 알파고' 개발하라···AI 특수부대 'T-브레인' 가동"
+title: "SK텔레콤, AI 특수부대 'T-브레인' 가동"
 tags: [news, media]
 image: /img/news/foundation.png
 ---
