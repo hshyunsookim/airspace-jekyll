@@ -507,11 +507,18 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   width: 100%;
 }
-@media (min-width: 768px) {
+#portfolio-work .block .portfolio-contant ul li a .crop {
+  margin-left: 0px;
+  vertical-align: bottom;
+  width: 150px;
+  height: 112.5px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
   #portfolio-work .block .portfolio-contant ul li a .crop {
     margin-left: 0px;
     vertical-align: bottom;
-    width: 150px;
+    width: 25%;
     height: 112.5px;
     overflow: hidden;
   }
@@ -521,13 +528,6 @@ font header .navbar-default .navbar-nav li a:hover {
   #portfolio-work .block .portfolio-contant ul li a .crop img {
     width: 100%;
   }
-}
-#portfolio-work .block .portfolio-contant ul li a .crop {
-  margin-left: 0px;
-  vertical-align: bottom;
-  width: 25%;
-  height: 112.5px;
-  overflow: hidden;
 }
 #portfolio-work .block .portfolio-contant ul li div {
   display: inline-block;
