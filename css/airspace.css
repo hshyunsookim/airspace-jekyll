@@ -35,7 +35,7 @@ h3 {
 }
 p {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 20px;
 }
 ul {
   padding: 0;
@@ -531,12 +531,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #portfolio-work .block .portfolio-contant ul li div {
   display: inline-block;
-  margin-left: 10px;
+ margin-left: 10px;
   vertical-align: middle;
   height: auto;
 }
 #portfolio-work .block .portfolio-contant ul li div h1 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0px;
   padding-top: 0px;
 }
