@@ -139,7 +139,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -266,7 +266,7 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 75px 0;
+  padding: 50px 0;
 }
 #feature h2 {
   font-size: 28px;
@@ -286,6 +286,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .white {
   background-color: rgba(255,255,255,0.7);
   padding-bottom: 15px;
+  width: 70%;
+  margin-left: 15%;
 }
 /*--
 	content Start
