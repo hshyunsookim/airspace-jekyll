@@ -279,6 +279,11 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   font-weight: 600;
 }
+#feature p .title{
+  font-size: 18pt;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 #feature .btn-view-works {
   background: #ff7a00;
   color: #fff;
@@ -293,6 +298,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #feature .white {
   background-color: rgba(255,255,255,0.7);
+  padding-top: 15px;
   padding-bottom: 15px;
   width: 70%;
   margin-left: 15%;
