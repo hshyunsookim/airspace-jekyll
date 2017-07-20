@@ -151,8 +151,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  width: 100%;
-  margin-left: 0%;
+  width: 80%;
+  margin-left: 10%;
   outline: 1px solid #dadada;
 }
 #intro .section-title {
@@ -168,7 +168,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 @media (min-width: 992px) {
   #intro .container {
-    width: 100%
+    width: 90%
   }
 } 
 /*--
