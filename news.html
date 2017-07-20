@@ -50,7 +50,7 @@ permalink: /news/
 			        <div class="preview">
 			        <h1>{{ post.title }}</h1>
 			        <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-			        <p>{{ post.date | date: "%m/%d/%Y" }}</p>
+			        <p class="date">{{ post.date | date: "%m/%d/%Y" }}</p>
 				</div>
 		        </a>
                     </li>

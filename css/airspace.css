@@ -548,12 +548,15 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+#portfolio-work .block .portfolio-contant ul li a .date {
+  margin-top: 10px;
+}
 
 #portfolio-work .block .portfolio-contant ul li a p {
   font-size: 14px;
   text-overflow: ellipsis;
   overflow: hidden;
-  max-width: 40ch;
+  max-width: 60ch;
   margin-bottom: 0px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -565,7 +568,7 @@ font header .navbar-default .navbar-nav li a:hover {
     font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-width: 75ch;
+    max-width: 90ch;
     margin-bottom: 0px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -577,7 +580,7 @@ font header .navbar-default .navbar-nav li a:hover {
     font-size: 14px;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-width: 75ch;
+    max-width: 100ch;
     margin-bottom: 0px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
