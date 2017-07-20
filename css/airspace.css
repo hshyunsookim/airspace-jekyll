@@ -274,13 +274,21 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
-  margin-bottom: 20px;
+  color: #3f3f3f;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
 }
 #feature .btn-view-works {
   background: #ff7a00;
   color: #fff;
   padding: 10px 20px;
+  width: 130px;
+  margin-left: -65px;
+  margin-top: 20px;
+  position: relative; 
+  float: left;
+  left: 50%;
 }
 
 #feature .white {
