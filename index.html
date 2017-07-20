@@ -30,11 +30,26 @@ permalink: /
           <p>SK T-Brain eun SK Telecom nae ae suh AI/ML RnD reul hanun jolla joeun team ipnida. Computer Vision, NLP, Game AI, deung deung eul hadaga jigeumeun T-map il hago ituhyo.</p>
         </div>
       </div><!-- .col-md-8 close -->
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-4 col-sm-12 single-item">
+        <div class="block">
+          <img src="img/wrapper-img.png" alt="Img">
+        </div>
+        <div class="block">
+          <img src="img/wrapper-img.png" alt="Img">
+        </div>
         <div class="block">
           <img src="img/wrapper-img.png" alt="Img">
         </div>
       </div><!-- .col-md-4 close -->
+      <script>
+        $(function() {
+          $('.single-item').slick({
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000
+          });
+        });
+      </script>
     </div>
   </div>
 </section>
