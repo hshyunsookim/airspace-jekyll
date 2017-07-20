@@ -118,6 +118,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block {
   color: #E3E3E4;
+  text-align: left;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
@@ -150,7 +151,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 #intro .block img {
-  width: 50%;
+  width: 100%;
   margin-left: 25%;
   outline: 1px solid #dadada;
 }
@@ -526,7 +527,7 @@ font header .navbar-default .navbar-nav li a:hover {
     overflow: hidden;
   }
   #portfolio-work .block .portfolio-contant ul li a .preview {
-    width: 60%;
+    width: 70%;
   }
   #portfolio-work .block .portfolio-contant ul li a .crop img {
     width: 100%;
@@ -539,9 +540,16 @@ font header .navbar-default .navbar-nav li a:hover {
   height: auto;
 }
 #portfolio-work .block .portfolio-contant ul li div h1 {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 0px;
   padding-top: 0px;
+}
+@media (min-width: 768px) {
+  #portfolio-work .block .portfolio-contant ul li div h1 {
+    font-size: 18px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
   font-size: 18px;
@@ -553,7 +561,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 14px;
+  font-size: 12px;
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 60ch;
