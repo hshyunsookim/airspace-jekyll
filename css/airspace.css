@@ -493,6 +493,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 6px;
   position: relative;
   padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
   opacity: 1;
@@ -553,8 +554,11 @@ font header .navbar-default .navbar-nav li a:hover {
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 40ch;
-  white-space: nowrap;
   margin-bottom: 0px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+
 }
 @media (min-width: 992px) {
    #portfolio-work .block .portfolio-contant ul li a p {
@@ -562,9 +566,11 @@ font header .navbar-default .navbar-nav li a:hover {
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 75ch;
-    white-space: nowrap;
     margin-bottom: 0px;
-  }
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+ }
 }
 @media (min-width: 1200px) {
   #portfolio-work .block .portfolio-contant ul li a p {
@@ -572,8 +578,10 @@ font header .navbar-default .navbar-nav li a:hover {
     text-overflow: ellipsis;
     overflow: hidden;
     max-width: 75ch;
-    white-space: nowrap;
     margin-bottom: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
 }
 #portfolio-work .block .portfolio-contant ul li a span {
