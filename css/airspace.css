@@ -23,7 +23,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+}
+h1 {
+  line-height: 50px;
 }
 h2 {
   font-size: 30px;
@@ -34,7 +37,7 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
 }
 ul {
@@ -87,7 +90,7 @@ header .navbar-default .navbar-nav li a {
   padding: 10px 26px;
   font-size: 15px;
 }
-font header .navbar-default .navbar-nav li a:hover {
+header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 /*---------------------------------------------
@@ -101,7 +104,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 50px 0 50px 0;
+  padding: 70px 0 35px 0;
   position: relative;
 }
 #slider:before {
@@ -126,7 +129,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
 #slider .block p {
   font-size: 23px;
@@ -134,12 +137,16 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-align: right;
 }
 /*--
 	wrapper Start
 --*/
 #intro {
-  padding: 50px 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 45px;
+  padding-bottom: 80px;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -147,8 +154,11 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #000000;
   padding-top: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 #intro .block img {
   width: 80%;
@@ -157,22 +167,29 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title {
   margin-bottom: 0px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 #intro .block {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 #intro .section-title p {
   padding-top: 20px;
 }
 @media (min-width: 1px) {
   #intro .container {
-    width: 70%   
+    width: 90%   
   }
 }
 @media (min-width: 992px) {
   #intro .container {
-    width: 90%
+    width: 970px
+  }
+} 
+@media (min-width: 1200px) {
+  #intro .container {
+    width: 1170px;
   }
 } 
 /*--
@@ -266,7 +283,7 @@ font header .navbar-default .navbar-nav li a:hover {
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 #feature h2 {
   font-size: 28px;
@@ -282,7 +299,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #feature .title{
   font-size: 18pt;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #feature .btn-view-works {
   background: #ff7a00;
@@ -298,10 +315,11 @@ font header .navbar-default .navbar-nav li a:hover {
 
 #feature .white {
   background-color: rgba(255,255,255,0.7);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   width: 70%;
   margin-left: 15%;
+  float: left;
 }
 /*--
 	content Start
