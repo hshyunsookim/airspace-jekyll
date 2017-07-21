@@ -64,6 +64,29 @@ a:active {
   font-style: italic;
   color: #666;
 }
+.section-body {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.row {
+  position: relative;
+}
+.row .single-item {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 30px; 
+}
+@media (max-width:992px) {
+  .row .single-item {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+}
+.row-left {
+  float: left;
+}
 /*--
 	Header Start
 --*/
@@ -169,6 +192,8 @@ header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 0px;
   letter-spacing: 1px;
   word-spacing: 3px;
+  padding-left: 15px; 
+  padding-right: 15px;
 }
 #intro .block {
   padding-top: 0px;
