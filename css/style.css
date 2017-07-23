@@ -17,15 +17,26 @@
  }
 
 .post-area {
-  padding: 40px;
-  width: 100%;
+  padding: 25px 15px 25px 15px;
+  width: 75%;
   min-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   border-bottom: 1px dotted #ddd;
+  line-height: 2.5em;
 }
-
+.post-area p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 120ch;
+  line-height: 1.5em;
+}
 .post-area a:link, .post-area a:visited {
-  font-size: 30px;
+  font-size: 24px;
   color: #333;
 }
 
