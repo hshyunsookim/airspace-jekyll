@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2017 여름 글로벌 인턴십"
-tags: [news, event]
+tags: [draft, event]
 image: /img/news/2017_internship.jpg
 ---
 

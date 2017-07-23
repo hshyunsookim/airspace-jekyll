@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generative Adversarial Net (GAN) 세미나"
-tags: [news, seminar]
+tags: [draft, seminar]
 image: /img/news/gan_seminar.jpg
 ---
 

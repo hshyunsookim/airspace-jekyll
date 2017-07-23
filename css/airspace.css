@@ -469,10 +469,10 @@ header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/driver.jpg") no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 175px;
+  padding-bottom: 170px;
   position: relative;
   background-attachment: fixed;
 }
@@ -502,7 +502,7 @@ header .navbar-default .navbar-nav li a:hover {
   text-transform: capitalize;
 }
 #global-header .block p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
