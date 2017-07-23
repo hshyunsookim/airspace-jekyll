@@ -59,6 +59,7 @@ a:active {
   font-size: 28px;
   font-weight: 600;
   line-height: 1.5em;
+  color: #464646;
 }
 .section-title p {
   font-family: 'Volkhov', serif;
@@ -117,12 +118,12 @@ header .navbar-default .navbar-nav {
   text-align: right;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #464646;
   padding: 10px 26px;
   font-size: 15px;
 }
 header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: #ff7a00;
 }
 /*---------------------------------------------
 					Index Start
@@ -188,7 +189,7 @@ header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #000000;
+  color: #464646;
   padding-top: 15px;
   padding-right: 15px;
   line-height: 22px;
@@ -199,7 +200,7 @@ header .navbar-default .navbar-nav li a:hover {
 #intro .block img {
   width: 80%;
   margin-left: 10%;
-  outline: 1px solid #dadada;
+  outline: 1px solid #888888;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -319,7 +320,7 @@ header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/feature-bg.jpg") no-repeat;
+  background: url("../img/feature-bg-blur.jpg") no-repeat;
   width: 100%;
   display: block;
   position: relative;
@@ -550,7 +551,7 @@ header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #655E7A;
+  color: #ea002c;
   position: relative;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
