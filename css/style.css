@@ -26,6 +26,9 @@
   border-bottom: 1px dotted #ddd;
   line-height: 2.5em;
 }
+.post-area:hover {
+  color: #888888;
+}
 .post-area p {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -35,11 +38,8 @@
   max-width: 120ch;
   line-height: 1.5em;
 }
-.post-area a:link, .post-area a:visited {
+.post-area a {
   font-size: 24px;
-  color: #333;
+  color: #464646;
 }
 
-.post-area a:hover {
-  color: #0D0017;
-}
