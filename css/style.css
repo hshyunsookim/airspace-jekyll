@@ -17,7 +17,7 @@
  }
 
 .post-area {
-  padding: 25px 15px 25px 15px;
+  padding: 15px 15px 15px 15px;
   width: 100%;
   min-height: 150px;
   margin-left: 0px;
@@ -29,6 +29,13 @@
 }
 .post-area:hover {
   color: #888888;
+}
+.post-area h1{
+  padding-left: 0px;
+  font-size: 20px;
+  color: #464646;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .post-area p {
   overflow: hidden;
@@ -44,4 +51,9 @@
   font-size: 20px;
   color: #464646;
 }
-
+.post-area a:hover{
+  color: #888888;
+}
+.post-content {
+  padding-left: 5%;
+}

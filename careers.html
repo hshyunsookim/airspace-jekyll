@@ -35,11 +35,13 @@ permalink: /careers/
 		{% for post in site.posts %}
 		  {% if post.tags contains 'careers' %}
 		  <div class="post-area">
-		    <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+		    <a href="{{ post.url | prepend: site.baseurl }}">
+	 	    <h1>{{ post.title }}</h1>
 		    <p href="{{ post.url | prepend: site.baseurl }}" class="post-date">{{ post.date | date: "%m/%d/%Y" }}</p>
 		    <p href="{{ post.url | prepend: site.baseurl }}">
 		      {{ post.content | strip_html | truncatewords: 50 }}
 		    </p>
+		  </a>
 		  </div>
 		  {% endif %}
 		{% endfor %}
