@@ -3,6 +3,12 @@ layout: post
 title: "Software Engineer"
 tags: [careers]
 ---
+*   Department: SK T-Brain
+*   Location: 을지로 SKT 타워
+*   Job Type: Full-Time (정규직)
+
+<br>
+ 
 #### 1. 주요 수행 업무 및 역할​​  
 *   Linux 환경에서 C/C++ 개발  
 *   다양한 시스템의 최적화, 테스팅, 디버깅, 모니터링 및 시각화 툴 제작  

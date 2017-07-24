@@ -3,6 +3,12 @@ layout: post
 title: "Project Manager (PM)"
 tags: [careers]
 ---
+*   Department: SK T-Brain
+*   Location: 을지로 SKT 타워
+*   Job Type: Full-Time (정규직)
+
+<br>
+ 
 #### 1. 주요 수행 업무 및 역할​​  
 *   내부 개발 프로젝트 진행 총괄  
 *   개발 단위 별 일정 계획 협의, 수립 및 관리  

@@ -3,6 +3,12 @@ layout: post
 title: "Computer Vision Engineer"
 tags: [careers]
 ---
+*   Department: SK T-Brain
+*   Location: 을지로 SKT 타워
+*   Job Type: Full-Time (정규직)
+
+<br>
+ 
 #### 1. 주요 수행 업무 및 역할​​  
 *   SLAM, SfM, reconstruction 등 Computer Vision을 이용한 고해상도 지도 제작 및 업데이트 기술 개발  
 *   Connected Car 및 자율주행/ADAS 기반 기술 개발  
