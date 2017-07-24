@@ -396,12 +396,14 @@ header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   font-weight: 600;
   font-size: 10pt;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #feature .title{
   font-size: 12pt;
   margin-top: 0px;
   margin-bottom: 15px;
   line-height: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #feature .btn-view-works {
   background: #ff7a00;
@@ -696,6 +698,7 @@ header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   margin-top: 0px;
   padding-top: 0px;
+  padding-left: 0px;
 }
 @media (min-width: 768px) {
   #portfolio-work .block .portfolio-contant ul li div h1 {
@@ -723,6 +726,7 @@ header .navbar-default .navbar-nav li a:hover {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   word-break: keep-all;
+  font-weight: 400;
 }
 @media (min-width: 992px) {
    #portfolio-work .block .portfolio-contant ul li a p {
@@ -746,7 +750,9 @@ header .navbar-default .navbar-nav li a:hover {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    font-weight: 300;
   }
+
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
