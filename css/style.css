@@ -38,6 +38,7 @@
   -webkit-box-orient: vertical;
   max-width: 120ch;
   line-height: 1.5em;
+  font-size: 14px
 }
 .post-area a {
   font-size: 20px;
