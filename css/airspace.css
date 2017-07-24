@@ -16,7 +16,6 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 h1,
 h2,
@@ -1078,4 +1077,7 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #ff432e;
+}
+body .overflow-wrapper {
+  overflow-x: hidden;
 }
