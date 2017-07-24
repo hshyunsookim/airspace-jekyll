@@ -3,19 +3,20 @@ layout: post
 title: "Software Engineer"
 tags: [careers]
 ---
+#### 1. 기본 정보
 *   Department: SK T-Brain
 *   Location: 을지로 SKT 타워
 *   Job Type: Full-Time (정규직)
 
 <br>
  
-#### 1. 주요 수행 업무 및 역할​​  
+#### 2. 주요 수행 업무 및 역할​​  
 *   Linux 환경에서 C/C++ 개발  
 *   다양한 시스템의 최적화, 테스팅, 디버깅, 모니터링 및 시각화 툴 제작  
 
 <br>
 
-#### 2. 필요 역량 및 직무 경험​​  
+#### 3. 필요 역량 및 직무 경험​​  
 *   핵심 직무 역량     
     *   대규모 C++ 프로젝트 분석 및 개발능  
     *   Windows/Linux 환경 호환가능한 C++ 개발  
@@ -27,7 +28,7 @@ tags: [careers]
     
 <br>
 
-#### 3. 자격 요건  
+#### 4. 자격 요건  
 *   총보유경력 : 제한 없음  
 *   학력/전공 : 학부 졸업 이상(전산 관련 전공)  
 *   기술/경험 (Language, 특수자격증, 해외체류경험 등)     
@@ -37,5 +38,7 @@ tags: [careers]
 
 <br>
 
-*   문의사항은 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 연락주세요.
+#### 5. 지원 방법 
+*   지원하는 포지션의 이름과 이력서 및 참고자료를 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 보내주세요.
 *   [채용 절차 FAQ 페이지](/2017/07/20/Application.html)
+*   문의사항은 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 연락주세요.

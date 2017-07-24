@@ -1,21 +1,23 @@
+
 ---
 layout: post
 title: "Computer Vision Engineer"
 tags: [careers]
 ---
+#### 1. 기본 정보
 *   Department: SK T-Brain
 *   Location: 을지로 SKT 타워
 *   Job Type: Full-Time (정규직)
 
 <br>
  
-#### 1. 주요 수행 업무 및 역할​​  
+#### 2. 주요 수행 업무 및 역할​​  
 *   SLAM, SfM, reconstruction 등 Computer Vision을 이용한 고해상도 지도 제작 및 업데이트 기술 개발  
 *   Connected Car 및 자율주행/ADAS 기반 기술 개발  
 
 <br>
 
-#### 2. 필요 역량 및 직무 경험​​  
+#### 3. 필요 역량 및 직무 경험​​  
 *   핵심 직무 역량     
     *   SLAM, SfM, reconstruction 등 3D Computer Vision 등의 지식을 보유한 관련 분야 전공자 (석사 이상, 필수)  
 *   우대 사항     
@@ -27,7 +29,7 @@ tags: [careers]
     
 <br>
 
-#### 3. 자격 요건  
+#### 4. 자격 요건  
 *   총보유경력 : 제한 없음  
 *   학력/전공 : 석사 졸업 이상 (전산 관련 전공)  
 *   기술/경험 (Language, 특수자격증, 해외체류경험 등)     
@@ -37,5 +39,7 @@ tags: [careers]
 
 <br>
 
-*   문의사항은 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 연락주세요.
+#### 5. 지원 방법 
+*   지원하는 포지션의 이름과 이력서 및 참고자료를 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 보내주세요.
 *   [채용 절차 FAQ 페이지](/2017/07/20/Application.html)
+*   문의사항은 [jobs@sktbrain.com](jobs@sktbrain.com) 으로 연락주세요.
