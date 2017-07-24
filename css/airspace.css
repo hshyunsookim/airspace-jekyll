@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -22,8 +22,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+h6,
+p,
+ul,
+li {
+  font-family: "Helvetica Neue", Helvetica, Arial , sans-serif;
 }
 h1 {
   line-height: 50px;
@@ -78,7 +81,7 @@ a:active {
   padding-left: 15px;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-style: italic;
   color: #666;
 }
@@ -182,7 +185,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-right: 15px;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -195,7 +198,7 @@ header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-align: right;
@@ -390,10 +393,10 @@ header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 600;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 #feature .title{
-  font-size: 14pt;
+  font-size: 12pt;
   margin-top: 0px;
   margin-bottom: 15px;
   line-height: 1.5em;
@@ -880,7 +883,7 @@ header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
 }
 #slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -890,7 +893,7 @@ header .navbar-default .navbar-nav li a:hover {
 #slider-contact .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -930,7 +933,7 @@ header .navbar-default .navbar-nav li a:hover {
   background: #47424C;
   border: none;
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
 }
 /*--
@@ -986,7 +989,7 @@ header .navbar-default .navbar-nav li a:hover {
   width: 100%;
 }
 #contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   color: #464646;
   font-size: 28px;
