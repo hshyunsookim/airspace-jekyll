@@ -1054,6 +1054,7 @@ footer .footer-manu {
 footer .footer-manu ul {
   margin: 0px;
   padding: 0px;
+  text-align: center;
 }
 footer .footer-manu ul li {
   display: inline-block;
