@@ -279,6 +279,11 @@ header .navbar-default .navbar-nav li a:hover {
     width: 1170px;
   }
 } 
+@media (max-width: 440px) {
+  #intro .container h2 {
+    font-size: 18px
+  }
+}
 /*--
 	service Start
 --*/
@@ -534,7 +539,7 @@ header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: linear-gradient(to left, #ff7a00, #ea002c);
-  opacity: 0.8;
+  opacity: 0.6;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -623,24 +628,29 @@ header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #999999;
   display: inline-block;
   margin-bottom: 40px;
+  text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
   padding: 0px 25px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 40px;
   font-weight: 600;
-  color: #333333;
+  color: #464646;
   text-transform: capitalize;
   position: relative;
+  width: 80px;
+  padding: 0px 0px;
+  text-align: center
 }
 #portfolio-work .block .portfolio-menu ul .active {
-  color: #ea002c;
+  color: #ff432e;
   position: relative;
+  text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul .active:before {
-  content: "\f0d7";
+/*  content: "\f0d7";
   position: absolute;
   font-family: 'FontAwesome';
   bottom: -18px;
@@ -656,10 +666,11 @@ header .navbar-default .navbar-nav li a:hover {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;*/
+  content: none;
 }
 #portfolio-work .block .portfolio-menu ul li:hover:before {
-  content: "\f0d7";
+/*  content: "\f0d7";
   position: absolute;
   font-family: 'FontAwesome';
   bottom: -18px;
@@ -675,7 +686,8 @@ header .navbar-default .navbar-nav li a:hover {
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;*/
+  content: none;
 }
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
@@ -717,7 +729,7 @@ header .navbar-default .navbar-nav li a:hover {
     overflow: hidden;
   }
   #portfolio-work .block .portfolio-contant ul li a .preview {
-    width: 70%;
+    width: 69%;
   }
   #portfolio-work .block .portfolio-contant ul li a .crop img {
     width: 100%;
@@ -735,6 +747,11 @@ header .navbar-default .navbar-nav li a:hover {
   margin-top: 0px;
   padding-top: 0px;
   padding-left: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 @media (min-width: 768px) {
   #portfolio-work .block .portfolio-contant ul li div h1 {
@@ -997,6 +1014,7 @@ header .navbar-default .navbar-nav li a:hover {
   font-size: 20px;
   width: 20px;
   color: #ff432e;
+  text-align: center;
 }
 .social-icons {
   margin-top: 40px;
