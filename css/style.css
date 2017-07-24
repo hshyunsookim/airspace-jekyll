@@ -18,13 +18,14 @@
 
 .post-area {
   padding: 25px 15px 25px 15px;
-  width: 75%;
+  width: 100%;
   min-height: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   background-color: white;
   border-bottom: 1px dotted #ddd;
   line-height: 2.5em;
+  word-break: keep-all;
 }
 .post-area:hover {
   color: #888888;
@@ -39,7 +40,7 @@
   line-height: 1.5em;
 }
 .post-area a {
-  font-size: 24px;
+  font-size: 20px;
   color: #464646;
 }
 

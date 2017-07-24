@@ -48,14 +48,14 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  text-align: center;
+  text-align: left;
 }
 .post ul {
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 30px;
   list-style-type: circle;
   word-break: keep-all;
   line-height: 2.0em;
@@ -157,10 +157,9 @@ header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/driver.jpg") no-repeat;
+  background: url("../img/driver.jpg") repeat-y;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: center center;
   padding: 100px 0 100px 0;
   position: relative;
 }
@@ -947,9 +946,13 @@ header .navbar-default .navbar-nav li a:hover {
   width: 20px;
   color: #ff432e;
 }
+.address-block {
+  text-align: center;
+}
 .social-icons {
   margin-top: 40px;
   margin-bottom: 50px;
+  text-align: center;
 }
 .social-icons li {
   display: inline-block;
@@ -959,8 +962,7 @@ header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
 }
 .social-icons i {
-  color: #2C2C2C;
-  margin-right: 15px;
+  color: #46464646464646464646464615px;
   margin-left: 15px;
   font-size: 25px;
 }
